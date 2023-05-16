@@ -5,11 +5,5 @@ class Trackly < Formula
   sha256 "7143eb2b27db1f005a9ed803749d29db2ef9e41ea3d2bda18ea4cd2774325b9f"
   version "2.0"
 
-  depends_on macos: ">= :ventura"
-
-  def install
-    # Unzip the app file and install it to /Applications
-    system "unzip", "Trackly.app.zip", "-d", prefix
-    mv "#{prefix}/Trackly.app", "/Applications"
-  end
+  app "Trackly.app"
 end
