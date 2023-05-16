@@ -6,6 +6,7 @@ cask "trackly" do
   name "Trackly"
   desc "Приложение для удобного просмотра списка пул-реквестов. Автор: Дмитрий Жаров <DZharov@alfabank.ru>"
   homepage "https://git.moscow.alfaintra.net/projects/IOSUTILS/repos/trackly/browse"
+  depends_on macos: ">= :ventura"
 
   app "Trackly.app"
 end
