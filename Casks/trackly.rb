@@ -1,5 +1,5 @@
 cask "trackly" do
-  version "2.2"
+  version "3.0"
 
   url "http://binary/artifactory/repopods/frameworks/Trackly/#{version}/Trackly.app.zip"
   name "Trackly"
