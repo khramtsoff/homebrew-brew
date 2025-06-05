@@ -1,17 +1,11 @@
 cask "rocketchat" do
-  version "3.9.9"
-  sha256 "966e75740cab317156a835a54c391c16b796606be2c1da33dc9517a3ecdcd68f"
+  version "4.4.1"
+  sha256 "b16e442ba15eef2a1897edf8b0de54b8378e01693636cea0ef801323f035c60f"
 
-  url "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/#{version}/rocketchat-#{version}-mac.dmg",
-      verified: "github.com/RocketChat/Rocket.Chat.Electron/"
+  url "http://binary/artifactory/repopods/frameworks/homebrew_apps/rocketchat/#{version}/rocketchat-#{version}-mac.dmg"
   name "Rocket.Chat"
   desc "Desktop client for Rocket.Chat"
   homepage "https://rocket.chat/"
-
-  livecheck do
-    url :url
-    strategy :github_latest
-  end
 
   auto_updates true
 
@@ -25,3 +19,4 @@ cask "rocketchat" do
     "~/Library/Saved Application State/rocket.chat.savedState",
   ]
 end
+
