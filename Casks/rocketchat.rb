@@ -1,8 +1,9 @@
 cask "rocketchat" do
   version "4.4.1"
-  sha256 "b16e442ba15eef2a1897edf8b0de54b8378e01693636cea0ef801323f035c60f"
+  sha256 "63fd3d53ce4c5d9878973462afb1b72345e10509bf8e2931d9c98860a6bfbbb4"
 
-  url "http://binary/artifactory/repopods/frameworks/homebrew_apps/rocketchat/#{version}/rocketchat-#{version}-mac.dmg"
+  # https://binary/ui/repos/tree/General/repopods/frameworks/homebrew_apps/rocketchat/4.4.1
+  url "http://binary/artifactory/repopods/frameworks/homebrew_apps/rocketchat/#{version}/Rocket.Chat.zip"
   name "Rocket.Chat"
   desc "Desktop client for Rocket.Chat"
   homepage "https://rocket.chat/"
@@ -19,4 +20,3 @@ cask "rocketchat" do
     "~/Library/Saved Application State/rocket.chat.savedState",
   ]
 end
-
