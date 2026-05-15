@@ -1,6 +1,6 @@
 cask "calendar-sync" do
   version "0.1.0"
-  sha256 "2abc696e036ee681cb57214a5512c708a1a759c480646d3713b4f384f55cef1e"
+  sha256 "503439f89ae550bca25d0eaba87af69444f9d512e5afe1f90d087251d4814b45"
 
   url "https://github.com/khramtsoff/eas-calendar-sync-macos/releases/download/v0.1.0/CalendarSync-0.1.0-macos.zip"
   name "CalendarSync"
